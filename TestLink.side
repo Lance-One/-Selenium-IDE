@@ -1,0 +1,362 @@
+{
+  "id": "513980da-4a87-409f-bbb0-5fdf0478ceda",
+  "version": "2.0",
+  "name": "TestLink",
+  "url": "http://testlink.it-online-school.ru",
+  "tests": [{
+    "id": "24683e18-de10-4537-9ebf-8f046bedee61",
+    "name": "Создание тест-кейса",
+    "commands": [{
+      "id": "ed528fa3-4b46-4104-916d-53228c7531ec",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php?caller=login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0156e477-237c-41a2-bb53-14011302568b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1279x983",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faf1cea1-60ef-41a6-aac3-7578dfc4b789",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4512759-5941-4668-b4d5-e81847c88f04",
+      "comment": "",
+      "command": "click",
+      "target": "name=testproject",
+      "targets": [
+        ["name=testproject", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='testproject']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae7f4ffe-7566-4c75-a10a-f3c7cd26edb7",
+      "comment": "",
+      "command": "select",
+      "target": "name=testproject",
+      "targets": [],
+      "value": "label=12_nomus:: YandexBrowserBeta"
+    }, {
+      "id": "569b3801-8422-479f-a30b-087c7ab5a46a",
+      "comment": "",
+      "command": "click",
+      "target": "name=testproject",
+      "targets": [
+        ["name=testproject", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='testproject']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d9879cd-bdca-4263-bc31-4c1d170c4f0e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "5112d74f-7b08-43a4-9ad0-8c41ba66aeab",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7ca117-e0b1-4501-a939-47c13c4b0e4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Редактировать тесты",
+      "targets": [
+        ["linkText=Редактировать тесты", "linkText"],
+        ["css=#testspecification_topics > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Редактировать тесты')]", "xpath:link"],
+        ["xpath=//div[@id='testspecification_topics']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'lib/general/frmWorkArea.php?feature=editTc')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Редактировать тесты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7bc8891-1ab2-47e7-86df-bdc766810a2a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e9d0a84-4b40-47b9-a50d-dd31b78d661b",
+      "comment": "",
+      "command": "click",
+      "target": "id=extdd-3",
+      "targets": [
+        ["id=extdd-3", "id"],
+        ["css=#extdd-3", "css:finder"],
+        ["xpath=//span[@id='extdd-3']", "xpath:attributes"],
+        ["xpath=//div[@id='extdd-1']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,': YandexBrowserBeta (49)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e22990dc-a214-4087-868a-eb27cbfe7954",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f5e0136-d678-470b-adfa-0cc4c4f9cbfd",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "25ede479-b8ab-4ea3-ac53-fbf02bfe556f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(1)",
+      "targets": [
+        ["css=.clickable:nth-child(1)", "css:finder"],
+        ["xpath=//img[@title='Действия']", "xpath:img"],
+        ["xpath=//img[@onclick=\"javascript:toogleShowHide('tproject_control_panel');\"]", "xpath:attributes"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e74a3aa7-50ee-47c7-92fc-d5c6633f8ee8",
+      "comment": "",
+      "command": "click",
+      "target": "id=new_testsuite",
+      "targets": [
+        ["id=new_testsuite", "id"],
+        ["name=new_testsuite", "name"],
+        ["css=#new_testsuite", "css:finder"],
+        ["xpath=//input[@id='new_testsuite']", "xpath:attributes"],
+        ["xpath=//div[@id='tproject_control_panel']/fieldset/form/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a529f4-a1c0-461a-98cd-476e9524c2f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=container_name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='container_new']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Автоматизация"
+    }, {
+      "id": "d438c756-bcfa-4385-8637-fa3c12ffebb4",
+      "comment": "",
+      "command": "click",
+      "target": "name=add_testsuite_button",
+      "targets": [
+        ["name=add_testsuite_button", "name"],
+        ["css=div:nth-child(1) > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='add_testsuite_button']", "xpath:attributes"],
+        ["xpath=//form[@id='container_new']/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f5129fe-879d-47bb-9abe-ffed2394887f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "d51d14e7-3d7a-424c-9086-b083426ca877",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "91663b54-20f4-47a7-b755-acb999dd6b41",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extdd-18 > span",
+      "targets": [
+        ["css=#extdd-18 > span", "css:finder"],
+        ["xpath=//span[@id='extdd-18']/span", "xpath:idRelative"],
+        ["xpath=//li[5]/div/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ec08c59-8bf2-4775-b6ee-14f6ece85470",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f32f68a8-91bf-40a5-a916-130f6f7527f3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea05dce4-6357-4213-852f-0813257c9d04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(2)",
+      "targets": [
+        ["css=.clickable:nth-child(2)", "css:finder"],
+        ["xpath=//img[@title='Действия']", "xpath:img"],
+        ["xpath=//img[@onclick=\"javascript:toogleShowHide('tsuite_control_panel');\"]", "xpath:attributes"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c31f45-5cf6-4a3b-bd90-64b56947889f",
+      "comment": "",
+      "command": "click",
+      "target": "id=create_tc",
+      "targets": [
+        ["id=create_tc", "id"],
+        ["name=create_tc", "name"],
+        ["css=#create_tc", "css:finder"],
+        ["xpath=//input[@id='create_tc']", "xpath:attributes"],
+        ["xpath=//div[@id='tsuite_control_panel']/fieldset[2]/form/input[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c489fb6-01ed-46b9-9ed8-49642b8856db",
+      "comment": "",
+      "command": "click",
+      "target": "id=testcase_name",
+      "targets": [
+        ["id=testcase_name", "id"],
+        ["name=testcase_name", "name"],
+        ["css=#testcase_name", "css:finder"],
+        ["xpath=//input[@id='testcase_name']", "xpath:attributes"],
+        ["xpath=//form[@id='tc_new']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35f88ce2-e998-4546-a237-d9c4a5d3ed43",
+      "comment": "",
+      "command": "type",
+      "target": "id=testcase_name",
+      "targets": [
+        ["id=testcase_name", "id"],
+        ["name=testcase_name", "name"],
+        ["css=#testcase_name", "css:finder"],
+        ["xpath=//input[@id='testcase_name']", "xpath:attributes"],
+        ["xpath=//form[@id='tc_new']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Тест 2"
+    }, {
+      "id": "72002457-0515-45c6-9335-23c4e201a66e",
+      "comment": "",
+      "command": "click",
+      "target": "id=do_create_button",
+      "targets": [
+        ["id=do_create_button", "id"],
+        ["name=do_create_button", "name"],
+        ["css=#do_create_button", "css:finder"],
+        ["xpath=//input[@id='do_create_button']", "xpath:attributes"],
+        ["xpath=//form[@id='tc_new']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db6f5f47-3f6d-4574-8856-fc8ecbf0efde",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.title",
+      "targets": [],
+      "value": "Тестовый пример"
+    }, {
+      "id": "f0ba3e6f-1cd1-4151-a626-792dc0921c9e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "333412e0-bb30-4f7c-8f9d-64c3be87dd3d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "058f7f61-6d43-4f90-a03b-99a05cc7c7c7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "31b18570-406e-47e6-8b24-698dcf36f57a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) img",
+      "targets": [
+        ["css=div:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Company logo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cd03945d-37c2-4d38-ba12-776d362874aa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["24683e18-de10-4537-9ebf-8f046bedee61"]
+  }],
+  "urls": ["http://testlink.it-online-school.ru/"],
+  "plugins": []
+}
